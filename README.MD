@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/j6hjvestgqixdjw7?svg=true)](https://ci.appveyor.com/project/FURSADMIT/cardorder)
