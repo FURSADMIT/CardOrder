@@ -16,7 +16,7 @@ public class TestCreditCard {
 
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "Users/irina/Desktop/drivers/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
     }
 
@@ -27,7 +27,7 @@ public class TestCreditCard {
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
-        driver.get("http://localhost:9999/");
+        driver.get("http://localhost:7777/");
     }
 
     @AfterEach
